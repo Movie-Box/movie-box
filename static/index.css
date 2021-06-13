@@ -1,0 +1,121 @@
+body{
+    background-color: bisque;
+}
+
+/* Brand */
+ .brand-link {
+  position: relative;
+  font-family: "Fira Mono", sans-serif;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gray);
+  z-index: 1;
+  transition: all .2s;
+}
+.brand-link::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  transition: all .15s;
+  z-index: -1;
+}
+.brand-link.gradient {
+  background: linear-gradient(-45deg, #96ceb4 20%, #dcc261 20%, #dcc261 40%, #ff6f69 40%, #ff6f69 60%, #ffcc5c 60%, #ffcc5c 80%, #88d8b0 80%, #88d8b0 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  transition: all .75s;
+}
+.brand-link.gradient:hover {
+  background-position: 0 0;
+}
+/* Brand */
+
+/* Title */
+.movie .title {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 4rem;
+  text-align: center;
+  margin: 15px;
+  display: inline-block;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #6b3e9e;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+/* Effect 3: From center */
+.title.e3 {
+  transition: all .5s linear;
+  background-image: linear-gradient(#ddbdff, #ddbdff);
+  background-size: 0%;
+  background-position: center;
+}
+.title.e3:hover {
+  background-size: 100%;
+}
+/* End Title */
+
+/* Title hover */
+.dd-link {
+  position: relative;
+  display: inline-block;
+  font-family: "Fira Mono", sans-serif;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gray);
+  z-index: 1;
+  transition: all .2s;
+}
+.dd-link::after {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  transition: all .15s;
+  z-index: -1;
+}
+.dd-link.gradient {
+  background: linear-gradient(to right, #4d90fe 25%, #9d31db 50%, #bb2c2c 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  background-position: 100% 0;
+  transition: all .75s;
+}
+.dd-link.gradient:hover {
+  background-position: 0 0;
+}
+/* End Title Hover */
+
+button#back2top{
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 14px;
+  color: #fff;
+  background-color: #4F46E5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 18px;
+  margin: 0;
+  border-radius: 3px;
+}
+
+

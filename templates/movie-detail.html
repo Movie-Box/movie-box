@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% block body %}
+<nav class="breadcrumb is-centered pt-3" aria-label="breadcrumbs">
+    <ul>
+        <li><a href="{{url_for('index')}}">Home</a></li>
+        <li class="is-active"><a aria-current="page">{{movie['title']}}</a></li>
+    </ul>
+</nav>
+<div class="tile is-ancestor">
+    <div class="tile is-parent">
+        <article class="tile is-child box">
+            <p class="title dd-link gradient style1">{{movie['title']}}</p>
+            <div class="subtitle pt-1">
+                <p><b>Genres:</b></p>
+                {% for type in types %}
+                <span class="tag is-light">{{type['name']}}</span>
+                {% endfor %}
+            </div>
+            <div class="subtitle">
+                <p><span class="tag is-dark">Release Date</span> <span>{{movie['release_date']}}</span></p>
+                <hr>
+                <p>Run Time: {{movie['runtime']}} mins</p>
+                <hr>
+                <div class="control">
+                    <div class="tags has-addons">
+                        <span class="tag is-dark">Status:</span>
+                        <span class="tag is-info">{{movie['status']}}</span>
+                    </div>
+                </div>
+                <hr>
+                <p>Average Vote: <span class="tag is-Link">{{movie['vote_average']}}</span></p>
+                <hr>
+                <p>Total revenue: $<span>{{movie['revenue']}}</span></p>
+            </div>
+        </article>
+    </div>
+    <div class="tile is-parent">
+        <article class="tile is-child box">
+            <figure class="image is-4by5">
+                <img src="https://image.tmdb.org/t/p/w1280{{ movie['poster_path']}}">
+            </figure>
+        </article>
+    </div>
+    <div class="tile is-parent">
+        <article class="tile is-child box">
+            <p class="title">{{movie['tagline']}}</p>
+            <p class="subtitle">With some content</p>
+            <div class="content">
+                <p>{{movie['overview']}}</p>
+            </div>
+        </article>
+    </div>
+</div>
+
+{% endblock %}

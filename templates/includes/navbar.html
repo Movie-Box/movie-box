@@ -1,0 +1,59 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a class="navbar-item brand-link gradient style3" href="{{url_for('index')}}">
+            <img src="{{url_for('static', filename='img/movie-ticket-100 .png')}}">
+            Movie Box
+        </a>
+
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+            <a href="{{url_for('index')}}" class="navbar-item">
+                Home
+            </a>
+
+            <a class="navbar-item">
+                Tv Shows
+            </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                    More
+                </a>
+
+                <div class="navbar-dropdown">
+                    <a class="navbar-item">
+                        Login
+                    </a>
+                    <a class="navbar-item">
+                        Register
+                    </a>
+                    <a class="navbar-item">
+                        About
+                    </a>
+                    <hr class="navbar-divider">
+                    <a href="https://github.com/default-sameer/movie-box/issues" target="_blank" class="navbar-item">
+                        Report an issue
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="navbar-end">
+            <form method="POST" action="{{url_for('index')}}" novalidate>
+                <div class="navbar-item">
+                    <input class="input" type="text" name="search" placeholder="Search" required>
+                    <button class="button is-success" type="submit" value="submit">Search</button>
+                </div>
+            </form>
+            
+        </div>
+    </div>
+</nav>
