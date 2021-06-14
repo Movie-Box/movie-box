@@ -27,7 +27,7 @@ def index():
         movie = requests.get('https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=6759ed5eeb52690e2718450fa55c04f4&page=1')
         movie_json = movie.json()
         success = movie.ok
-        return render_template('index.html', title='Trending', movies=movie_json['results'], success=success)
+        return render_template('index.html', title='Popular Movies', movies=movie_json['results'], success=success)
     return render_template('index.html')
 
 @app.get("/<movie_id>/<movie_name>")
