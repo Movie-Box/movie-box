@@ -1,63 +1,66 @@
 {% extends "layout.html" %}
 {% block body %}
+<div style="overflow: hidden;">
 {% if search_movies %}
-<nav class="breadcrumb is-centered pt-3" aria-label="breadcrumbs">
-    <ul>
-        <li><a href="{{url_for('index')}}">Home</a></li>
-        <li class="is-active"><a aria-current="page">Search</a></li>
-    </ul>
-</nav>
-{% for movie in search_movies %}
-<div class="tile is-ancestor pt-2">
-    <div class="tile is-parent">
-        <article class="tile is-child box">
-            <figure class="image is-4by5">
-                <img src="https://image.tmdb.org/t/p/w1280{{ movie['poster_path']}}">
-            </figure>
-        </article>
-    </div>
-    <div class="tile is-parent is-8">
-        <article class="tile is-child box">
-            <p class="title"><a href="{{url_for('movie_detail', movie_id=movie['id'], movie_name=movie['title'] )}}" class="dd-link gradient style1">{{movie['title']}}</a></p>
-            <p class="subtitle">Movie Overview</p>
-            <div class="content">
-                <p>{{movie['overview']}}</p>
-            </div>
-            <p>Average Rating:<span class="tag is-light">{{movie['vote_average']}}</span></p>
-        </article>
-    </div>
-    <hr class="dropdown-divider">
-</div>
-<hr class="dropdown-divider">
-{% endfor %}
-{% else %}
-<div class="movie">
-    <h2 class="title e3">Popular Movies </h2>
-</div>
-{% for movie in movies %}
-<div class="tile is-ancestor pt-2">
-    <div class="tile is-parent">
-        <article class="tile is-child box">
-            <figure class="image is-4by5">
-                <img src="https://image.tmdb.org/t/p/w1280{{ movie['poster_path']}}">
-            </figure>
-        </article>
-    </div>
-    <div class="tile is-parent is-8">
-        <article class="tile is-child box">
-            <p class="title"><a href="{{url_for('movie_detail', movie_id=movie['id'], movie_name=movie['title'] )}}" class="dd-link gradient style1">{{movie['title']}}</a></p>
-            <div class="content">
-            <p class="subtitle">Movie Overview:</p>
-                <p>{{movie['overview']}}</p>
-            </div>
-            <p>Average Rating:<span class="tag is-light">{{movie['vote_average']}}</span></p>
-        </article>
+    <nav class="breadcrumb is-centered pt-3" aria-label="breadcrumbs">
+        <ul>
+            <li><a href="{{url_for('index')}}">Home</a></li>
+            <li class="is-active"><a aria-current="page">Search</a></li>
+        </ul>
+    </nav>
+    {% for movie in search_movies %}
+    <div class="tile is-ancestor pt-2">
+        <div class="tile is-parent">
+            <article class="tile is-child box">
+                <figure class="image is-4by5">
+                    <img src="https://image.tmdb.org/t/p/w1280{{ movie['poster_path']}}">
+                </figure>
+            </article>
+        </div>
+        <div class="tile is-parent is-8">
+            <article class="tile is-child box">
+                <p class="title"><a href="{{url_for('movie_detail', movie_id=movie['id'], movie_name=movie['title'] )}}" class="dd-link gradient style1">{{movie['title']}}</a></p>
+                <p class="subtitle">Movie Overview</p>
+                <div class="content">
+                    <p>{{movie['overview']}}</p>
+                </div>
+                <p>Average Rating:<span class="tag is-light">{{movie['vote_average']}}</span></p>
+            </article>
+        </div>
+        <hr class="dropdown-divider">
     </div>
     <hr class="dropdown-divider">
+    {% endfor %}
+    {% else %}
+    {% if success %}
+    <div class="movie">
+        <h2 class="title e3">Popular Movies </h2>
+    </div>
+    {% endif %}
+    {% for movie in movies %}
+    <div class="tile is-ancestor pt-2">
+        <div class="tile is-parent">
+            <article class="tile is-child box">
+                <figure class="image is-4by5">
+                    <img src="https://image.tmdb.org/t/p/w1280{{ movie['poster_path']}}">
+                </figure>
+            </article>
+        </div>
+        <div class="tile is-parent is-8">
+            <article class="tile is-child box">
+                <p class="title"><a href="{{url_for('movie_detail', movie_id=movie['id'], movie_name=movie['title'] )}}" class="dd-link gradient style1">{{movie['title']}}</a></p>
+                <div class="content">
+                <p class="subtitle">Movie Overview:</p>
+                    <p>{{movie['overview']}}</p>
+                </div>
+                <p>Average Rating:<span class="tag is-light">{{movie['vote_average']}}</span></p>
+            </article>
+        </div>
+        <hr class="dropdown-divider">
+    </div>
+    <hr class="dropdown-divider">
+    {% endfor %}
+    {% endif %}
 </div>
-<hr class="dropdown-divider">
-{% endfor %}
-{% endif %}
-
 
 {% endblock %}

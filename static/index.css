@@ -118,4 +118,31 @@ button#back2top{
   border-radius: 3px;
 }
 
+/* Similar Movie */
+.movie-container{
+  display: flex;
+  flex-wrap: wrap;
+}
 
+.similar-movie{
+  background-color: #F1C40F;
+  width: 301px;
+  margin: 1rem;
+
+}
+.similar-movie img{
+  max-width: 100%;
+}
+
+.movie-info{
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-info h3{
+  margin: 0;
+}
+
+/* End Similar Movie */

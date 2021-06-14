@@ -44,12 +44,30 @@
     <div class="tile is-parent">
         <article class="tile is-child box">
             <p class="title">{{movie['tagline']}}</p>
-            <p class="subtitle">With some content</p>
+            <!-- <p class="subtitle"></p> -->
             <div class="content">
                 <p>{{movie['overview']}}</p>
             </div>
         </article>
     </div>
+</div>
+<hr>
+<div class="title has-text-centered">
+    <p class="title dd-link gradient style1" style="font-size: 40px;">Similar Movies</p>
+</div>
+<div class="movie-container">
+    {% for movie in similar_movie %}
+    <div class="similar-movie">
+        <a href="{{url_for('movie_detail', movie_id=movie['id'], movie_name=movie['title'])}}">
+        <img src="https://image.tmdb.org/t/p/w1280{{movie['poster_path']}}">
+        </a>
+        <div class="movie-info">
+            <h3>{{movie['title']}}</h3>
+            <span class="tag is-light">{{movie['vote_average']}}</span>
+        </div>
+        
+    </div>
+    {% endfor %}
 </div>
 
 {% endblock %}
