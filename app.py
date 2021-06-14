@@ -6,9 +6,7 @@ from werkzeug.utils import redirect
 
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = 'MOVIEBOX'
-
-api_key = '6759ed5eeb52690e2718450fa55c04f4'
+app.config['SECRET_KEY'] = 'TtNqvoYQX@6Fjr&@GT5pW!brWFSZ'
 
 @app.get('/')
 @app.post('/')
@@ -42,6 +40,3 @@ def movie_detail(movie_id, movie_name):
     similar_movie_response = requests.get(similar_movie_url.format(movie_id))
     similar_movie_detail = similar_movie_response.json()
     return render_template('movie-detail.html', title=movie_name, movie=movie_detail, types=movie_detail['genres'], similar_movie=similar_movie_detail['results'])
-
-
-app.run(debug=True)
