@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block body %}
+<nav class="breadcrumb is-centered pt-3" aria-label="breadcrumbs">
+    <ul>
+        <li><a href="{{url_for('index')}}">Home</a></li>
+        <li class="is-active"><a aria-current="page">Tv</a></li>
+    </ul>
+</nav>
+<div class="movie">
+    <h2 class="title e3">Popular Tv </h2>
+</div>
+{% for tv in tvs %}
+<div class="tile is-ancestor">
+    <div class="tile is-parent">
+        <article class="tile is-child box">
+            <figure class="image is-4by5">
+                <a href="{{url_for('tv_detail', tv_id=tv['id'], tv_name=tv['name'])}}">
+                <img src="https://image.tmdb.org/t/p/w1280{{ tv['poster_path']}}"></a>
+            </figure>
+        </article>
+    </div>
+    <div class="tile is-parent is-8">
+        <article class="tile is-child box">
+            <p class="title"><a href="{{url_for('tv_detail', tv_id=tv['id'], tv_name=tv['name'])}}"
+                    class="dd-link gradient style1">{{tv['name']}}</a></p>
+            <div class="content">
+                <p class="subtitle">Movie Overview:</p>
+                <p>{{tv['overview']}}</p>
+            </div>
+            <p>Average Rating:<span class="tag is-light">{{tv['vote_average']}}</span></p>
+        </article>
+    </div>
+    <hr class="dropdown-divider">
+</div>
+{% endfor %}
+{% endblock %}

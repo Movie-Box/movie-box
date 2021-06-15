@@ -2,7 +2,7 @@
 {% block body %}
 <nav class="breadcrumb is-centered pt-3" aria-label="breadcrumbs">
     <ul>
-        <li><a href="{{url_for('index')}}">Home</a></li>
+        <li><a href="{{url_for('popular_movie')}}">Movie</a></li>
         <li class="is-active"><a aria-current="page">{{movie['title']}}</a></li>
     </ul>
 </nav>
@@ -44,8 +44,9 @@
     <div class="tile is-parent">
         <article class="tile is-child box">
             <p class="title">{{movie['tagline']}}</p>
-            <!-- <p class="subtitle"></p> -->
+            
             <div class="content">
+                <p class="is-size-4">Movie Overview:</p>
                 <p>{{movie['overview']}}</p>
             </div>
         </article>

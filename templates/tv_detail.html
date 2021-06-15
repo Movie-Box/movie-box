@@ -1,0 +1,56 @@
+{% extends "layout.html" %}
+{% block body %}
+<nav class="breadcrumb is-centered pt-3" aria-label="breadcrumbs">
+    <ul>
+        <li><a href="{{url_for('popular_tv')}}">Tv</a></li>
+        <li class="is-active"><a aria-current="page">{{tv['name']}}</a></li>
+    </ul>
+</nav>
+<div class="tile is-ancestor">
+    <div class="tile is-parent">
+        <article class="tile is-child box">
+            <p class="title dd-link gradient style1">{{tv['name']}}</p>
+            <div class="subtitle pt-1">
+                <p><b>Genres:</b></p>
+                {% for type in types %}
+                <span class="tag is-light">{{type['name']}}</span>
+                {% endfor %}
+            </div>
+            <div class="subtitle">
+                <p><span class="tag is-dark">First Air Date</span> <span>{{tv['first_air_date']}}</span></p>
+                <hr>
+                <p>Episode Run Time: {{tv['episode_run_time']}} mins</p>
+                <hr>
+                <div class="control">
+                    <div class="tags has-addons">
+                        <span class="tag is-dark">Status:</span>
+                        <span class="tag is-info">{{tv['status']}}</span>
+                    </div>
+                </div>
+                <hr>
+                <p>Number of Season: <span>{{tv['number_of_seasons']}}</span></p>
+                <p>Number of Episode: <span>{{tv['number_of_episodes']}}</span></p>
+                <hr>
+                <p>Average Vote: <span class="tag is-Link">{{tv['vote_average']}}</span></p>
+            </div>
+        </article>
+    </div>
+    <div class="tile is-parent">
+        <article class="tile is-child box">
+            <figure class="image is-4by5">
+                <img src="https://image.tmdb.org/t/p/w1280{{ tv['poster_path']}}">
+            </figure>
+        </article>
+    </div>
+    <div class="tile is-parent">
+        <article class="tile is-child box">
+            <p class="title">{{tv['tagline']}}</p>
+            <div class="content">
+                <p>{{tv['overview']}}</p>
+            </div>
+            <p class="subtitle">Last Air Date: {{tv['last_episode_to_air']['air_date']}} <br> Episode Name: <span class="tag is-light">{{tv['last_episode_to_air']['name']}}</span></p>
+            <p class="subtitle">Next Air Date: {{tv['next_episode_to_air']['air_date']}} <br> Episode Name: <span class="tag is-light">{{tv['next_episode_to_air']['name']}}</span></p>
+        </article>
+    </div>
+</div>
+{% endblock %}

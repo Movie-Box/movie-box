@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+{% block css %}
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+{% endblock %}
+{% block body %}
+<section class="text-gray-600 body-font">
+    <div class="container px-10 py-5 mx-auto">
+        <div class="flex flex-col text-center w-full mb-5">
+            <h1 class="sm:text-3xl text-2xl font-bold title-fonttext-gray-900">Popular Tv
+            </h1>
+        </div>
+        <div class="flex flex-wrap -m-4">
+
+            {% for tv in tvs %}
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="max-w-xs mx-auto overflow-hidden bg-blend-soft-light rounded-lg shadow-lg dark:bg-gray-800">
+                    <img class="object-cover w-full h-70" src="https://image.tmdb.org/t/p/w1280{{tv['poster_path']}}"
+                        alt="avatar">
+
+                    <div class="py-5 text-center">
+                        <a href="{{url_for('tv_detail', tv_id=tv['id'], tv_name=tv['name'])}}"
+                            class="block text-1xl font-small text-gray-800 dark:text-white">{{tv['name']}}</a>
+                        <span class="text-sm text-gray-700 dark:text-gray-200"><span
+                                class="tag is-link">{{tv['vote_average']}}</span></span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

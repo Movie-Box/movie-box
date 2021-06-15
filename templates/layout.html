@@ -15,8 +15,11 @@
     <meta name="application-name" content="Movie Box">
     <meta name="msapplication-TileColor" content="#ffc40d">
     <meta name="theme-color" content="#ffffff">
+    {% block css %}
+    
+    {% endblock %}
     {% if title %}
-    <title>{{title}}</title>
+    <title>{{title}} | Movie Box</title>
     {% else %}
     <title>Movie Box | Powered by The Movie Database</title>
     {% endif %}

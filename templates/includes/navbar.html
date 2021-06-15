@@ -17,8 +17,11 @@
             <a href="{{url_for('index')}}" class="navbar-item">
                 Home
             </a>
+            <a href="{{url_for('popular_movie')}}" class="navbar-item">
+                Movie
+            </a>
 
-            <a class="navbar-item">
+            <a href="{{url_for('popular_tv')}}" class="navbar-item">
                 Tv Shows
             </a>
 
@@ -52,12 +55,12 @@
         </div>
 
         <div class="navbar-end">
-            <form method="POST" action="{{url_for('index')}}" novalidate>
+            <!-- <form method="POST" action="{{url_for('index')}}" novalidate>
                 <div class="navbar-item">
-                    <input class="input" type="text" name="search" placeholder="Search" required>
+                    <input class="input mr-2" type="text" name="search" placeholder="Search" required>
                     <button class="button is-success" type="submit" value="submit">Search</button>
                 </div>
-            </form>
+            </form> -->
             
         </div>
     </div>
