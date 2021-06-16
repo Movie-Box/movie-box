@@ -1,0 +1,54 @@
+{% extends "layout.html" %}
+{% block css %}
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+{% endblock %}
+{% block body %}
+<section class="text-gray-600 body-font">
+    <div class="container px-10 py-5 mx-auto">
+        <div class="flex flex-col text-center w-full mb-5">
+            <h1 class="sm:text-3xl text-2xl font-bold title-fonttext-gray-900">Trending</h1>
+        </div>
+        <div class="flex flex-wrap -m-4">
+
+            {% for trend in trends %}
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="max-w-xs mx-auto overflow-hidden bg-blend-soft-light rounded-lg shadow-lg dark:bg-gray-800">
+                    <img class="object-cover w-full h-70" src="https://image.tmdb.org/t/p/w1280{{trend['poster_path']}}"
+                        alt="avatar">
+                    <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">                    
+                        <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
+                            <p class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">
+                                {{trend['media_type']}}
+                            </p>
+                        </div>
+                    </div>
+                    <div class="py-5 text-center">
+                        {% if trend['media_type'] == 'movie' %}
+                        
+                         <a href="{{url_for('movie_detail', movie_id=trend['id'], movie_name=trend['title'])}}"
+                            class="block text-1xl font-small text-gray-800 dark:text-white">
+                            
+                            {{trend['title']}}
+                            
+                        </a>
+                        <span class="text-sm text-gray-700 dark:text-gray-200">
+                            <span class="tag is-link">{{trend['vote_average']}}</span>
+                        </span> 
+                        {% else %}
+                        <a href="{{url_for('tv_detail', tv_id=trend['id'], tv_name=trend['name'])}}" class="block text-1xl font-small text-gray-800 dark:text-white">
+                           
+                            {{trend['name']}}
+                           
+                        </a>
+                        <span class="text-sm text-gray-700 dark:text-gray-200">
+                            <span class="tag is-link">{{trend['vote_average']}}</span>
+                        </span>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% endblock %}

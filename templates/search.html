@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+{% block css %}
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+{% endblock %}
+{% block body %}
+
+<section class="text-gray-600 body-font">
+    <div class="container px-10 py-5 mx-auto">
+        <nav class="breadcrumb is-centered pt-3" aria-label="breadcrumbs">
+            <ul>
+                <li><a href="{{url_for('index')}}">Search</a></li>
+                {% if movies %}
+                <li class="is-active"><a aria-current="page">Movie</a></li>
+                {% elif tvs %}
+                <li class="is-active"><a aria-current="page">Tv</a></li>
+                {% else %}
+                <li class="is-active"><a aria-current="page">No Result</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+        <div class="flex flex-wrap -m-4">
+            {% if movies %}
+            {% for movie in movies %}
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="max-w-xs mx-auto overflow-hidden bg-blend-soft-light rounded-lg shadow-lg dark:bg-gray-800">
+                    <img class="object-cover w-full h-70" src="https://image.tmdb.org/t/p/w1280{{movie['poster_path']}}"
+                        alt="Poster">
+
+                    <div class="py-5 text-center">
+                        <a href="{{url_for('movie_detail', movie_id=movie['id'], movie_name=movie['title'])}}"
+                            class="block text-1xl font-small text-gray-800 dark:text-white">{{movie['title']}}</a>
+                        <span class="text-sm text-gray-700 dark:text-gray-200"><span
+                                class="tag is-link">{{movie['vote_average']}}</span></span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            {% else %}
+            {% for tv in tvs %}
+            <div class="lg:w-1/3 sm:w-1/2 p-4">
+                <div class="max-w-xs mx-auto overflow-hidden bg-blend-soft-light rounded-lg shadow-lg dark:bg-gray-800">
+                    <img class="object-cover w-full h-70" src="https://image.tmdb.org/t/p/w1280{{tv['poster_path']}}" alt="Poster">
+            
+                    <div class="py-5 text-center">
+                        <a href="{{url_for('tv_detail', tv_id=tv['id'], tv_name=tv['name'])}}"
+                            class="block text-1xl font-small text-gray-800 dark:text-white">{{tv['name']}}</a>
+                        <span class="text-sm text-gray-700 dark:text-gray-200"><span
+                                class="tag is-link">{{tv['vote_average']}}</span></span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+</section>
+{% endblock %}

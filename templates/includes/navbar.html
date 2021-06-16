@@ -17,6 +17,9 @@
             <a href="{{url_for('index')}}" class="navbar-item">
                 Home
             </a>
+            <a href="{{url_for('trending')}}" class="navbar-item">
+                Trending
+            </a>
             <a href="{{url_for('popular_movie')}}" class="navbar-item">
                 Movie
             </a>
@@ -24,12 +27,12 @@
             <a href="{{url_for('popular_tv')}}" class="navbar-item">
                 Tv Shows
             </a>
-
+            
             <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link">
                     More
                 </a>
-
+                
                 <div class="navbar-dropdown">
                     <a class="navbar-item">
                         Login
@@ -37,13 +40,16 @@
                     <a class="navbar-item">
                         Register
                     </a>
-                    <a class="navbar-item">
+                    <a href="{{url_for('about')}}" class="navbar-item">
                         About
                     </a>
                     <hr class="navbar-divider">
-                    <a href="https://github.com/default-sameer/movie-box/issues" target="_blank" class="navbar-item">
-                        Report an issue
-                    </a>
+                    <p class="navbar-item">
+                        <!-- Place this tag where you want the button to render. -->
+                        <a class="github-button" href="https://github.com/default-sameer/movie-box/issues"
+                            data-color-scheme="no-preference: light; light: light; dark: light;" data-show-count="true"
+                            aria-label="Issue default-sameer/movie-box on GitHub">Issue</a>
+                    </p>
                 </div>
             </div>
             {% if msg %}
@@ -55,13 +61,12 @@
         </div>
 
         <div class="navbar-end">
-            <!-- <form method="POST" action="{{url_for('index')}}" novalidate>
-                <div class="navbar-item">
-                    <input class="input mr-2" type="text" name="search" placeholder="Search" required>
-                    <button class="button is-success" type="submit" value="submit">Search</button>
-                </div>
-            </form> -->
-            
+            <p class="navbar-item">
+                <!-- Place this tag where you want the button to render. -->
+                <a class="github-button" href="https://github.com/default-sameer/movie-box"
+                    data-color-scheme="no-preference: light; light: light; dark: light;" data-show-count="true"
+                    aria-label="Star default-sameer/movie-box on GitHub">Star</a>
+            </p>
         </div>
     </div>
 </nav>

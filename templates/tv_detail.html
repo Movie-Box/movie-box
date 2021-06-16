@@ -28,8 +28,8 @@
                     </div>
                 </div>
                 <hr>
-                <p>Number of Season: <span>{{tv['number_of_seasons']}}</span></p>
-                <p>Number of Episode: <span>{{tv['number_of_episodes']}}</span></p>
+                <p>Total Number of Season: <span>{{tv['number_of_seasons']}}</span></p>
+                <p>Total Number of Episode: <span>{{tv['number_of_episodes']}}</span></p>
                 <hr>
                 <p>Average Vote: <span class="tag is-Link">{{tv['vote_average']}}</span></p>
             </div>
@@ -44,7 +44,7 @@
     </div>
     <div class="tile is-parent">
         <article class="tile is-child box">
-            <p class="title">{{tv['tagline']}}</p>
+            <p class="title">Overview:</p>
             <div class="content">
                 <p>{{tv['overview']}}</p>
             </div>
@@ -52,5 +52,23 @@
             <p class="subtitle">Next Air Date: {{tv['next_episode_to_air']['air_date']}} <br> Episode Name: <span class="tag is-light">{{tv['next_episode_to_air']['name']}}</span></p>
         </article>
     </div>
+</div>
+<hr>
+<div class="title has-text-centered">
+    <p class="title dd-link gradient style1" style="font-size: 40px;">Similar Movies</p>
+</div>
+<div class="movie-container">
+    {% for tv in similar_tv %}
+    <div class="similar-movie">
+        <a href="{{url_for('tv_detail', tv_id=tv['id'], tv_name=tv['name'])}}">
+            <img src="https://image.tmdb.org/t/p/w1280{{tv['poster_path']}}">
+        </a>
+        <div class="movie-info">
+            <p>{{tv['name']}}</p>
+            <span class="tag is-light">{{tv['vote_average']}}</span>
+        </div>
+
+    </div>
+    {% endfor %}
 </div>
 {% endblock %}

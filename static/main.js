@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
 const button = document.querySelector("#back2top");
 BACK2TOP(button, 200);
 
-function BACK2TOP(selector, offset, prop = 'all', time = '300', effect = 'ease', delay = 0) {
+function BACK2TOP(selector, offset, prop = 'all', time = '500', effect = 'ease', delay = 0) {
     const WIN_SCROLLED = function () {
         if (document.body.scrollTop > offset || document.documentElement.scrollTop > offset) {
             const STYLES = {
