@@ -13,8 +13,17 @@
             {% for trend in trends %}
             <div class="lg:w-1/3 sm:w-1/2 p-4">
                 <div class="max-w-xs mx-auto overflow-hidden bg-blend-soft-light rounded-lg shadow-lg dark:bg-gray-800">
+                    {% if trend['media_type'] == 'movie' %}
+                    <a href="{{url_for('movie_detail', movie_id=trend['id'], movie_name=trend['title'])}}">
                     <img class="object-cover w-full h-70" src="https://image.tmdb.org/t/p/w1280{{trend['poster_path']}}"
                         alt="avatar">
+                    </a>
+                    {% else %}
+                    <a href="{{url_for('tv_detail', tv_id=trend['id'], tv_name=trend['name'])}}">
+                    <img class="object-cover w-full h-70" src="https://image.tmdb.org/t/p/w1280{{trend['poster_path']}}"
+                        alt="avatar">
+                    </a>
+                    {% endif %}
                     <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">                    
                         <div class="flex items-center justify-between px-3 py-2 bg-gray-200 dark:bg-gray-700">
                             <p class="px-2 py-1 text-xs font-semibold text-white uppercase transition-colors duration-200 transform bg-gray-800 rounded hover:bg-gray-700 dark:hover:bg-gray-600 focus:bg-gray-700 dark:focus:bg-gray-600 focus:outline-none">

@@ -86,5 +86,9 @@ def tv_detail(tv_id, tv_name):
 def about():
     return render_template('about.html')
 
+@app.route('/service-worker.js')
+def sw():
+    return app.send_static_file('service-worker.js'), 200, {'Content-Type': 'text/javascript'}
+
 
 

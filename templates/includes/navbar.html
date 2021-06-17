@@ -1,7 +1,7 @@
 <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
         <a class="navbar-item brand-link gradient style3" href="{{url_for('index')}}">
-            <img src="{{url_for('static', filename='img/movie-ticket-100 .png')}}">
+            <img src="{{url_for('static', filename='img/movie-ticket-100 .png')}}" alt="Logo">
             Movie Box
         </a>
 
@@ -45,10 +45,10 @@
                     </a>
                     <hr class="navbar-divider">
                     <p class="navbar-item">
-                        <!-- Place this tag where you want the button to render. -->
-                        <a class="github-button" href="https://github.com/default-sameer/movie-box/issues"
-                            data-color-scheme="no-preference: light; light: light; dark: light;" data-show-count="true"
-                            aria-label="Issue default-sameer/movie-box on GitHub">Issue</a>
+                        <button id="installButton"
+                            class="px-2 py-1 font-small tracking-wide text-white capitalize transition-colors duration-200 transform bg-green-600 rounded-md dark:bg-gray-800 hover:bg-purple-500 dark:hover:bg-gray-700 focus:outline-none focus:bg-blue-500 dark:focus:bg-gray-700" hidden>
+                            Install
+                        </button>
                     </p>
                 </div>
             </div>

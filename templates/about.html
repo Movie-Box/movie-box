@@ -3,11 +3,16 @@
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 {% endblock %}
 {% block body %}
+
+<div class="max-w-md px-8 py-4 mx-auto mt-16 bg-blend-color-dodge rounded-lg shadow-lg dark:bg-gray-800 mb-2">
+    <h2 class="mt-2 text-2xl font-semibold text-gray-800 dark:text-white md:mt-0 md:text-3xl text-center">Movie Box</h2>
+    <p class="mt-2 text-gray-600 dark:text-gray-200">Browse Wide Collection of Movie and Tv Shows</p>
+</div>
 <section class="bg-blend-color-dodge dark:bg-gray-900 lg:py-12 lg:flex lg:justify-center">
     <div class="bg-blend-color-dodge dark:bg-gray-800 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
         <div class="lg:w-1/2">
             <div class="h-64 bg-cover lg:rounded-lg lg:h-full">
-                <img class="p-5 px-3" src="{{url_for('static', filename='img/tmdb.svg')}}" alt="">
+                <img class="p-5 px-3" src="{{url_for('static', filename='img/tmdb.svg')}}" alt="tmdb logo">
             </div>
         </div>
 
@@ -17,14 +22,15 @@
             <p class="mt-4 text-gray-600 dark:text-gray-400">The Movie Database (TMDb) is a community built movie and TV database. Every piece of data has been added by our amazing
             community dating back to 2008. TMDb's strong international focus and breadth of data is largely unmatched and something
             we're incredibly proud of. Put simply, we live and breathe community and that's precisely what makes us different.</p>
-
-            <!-- <div class="mt-8">
-                <a href="https://www.themoviedb.org/documentation/api" target="_blank"
-                    class="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">Start
-                    Now</a>
-            </div> -->
         </div>
     </div>
 </section>
+<div class="flex w-full max-w-sm mx-auto overflow-hidden bg-blend-hard-light rounded-lg shadow-md dark:bg-gray-800">
+    <div class="flex items-center px-2 py-3">
+        <div class="mx-3">
+            <p class="text-gray-600 dark:text-gray-200 text-center">If The Browser support this Webpage can be  installed as a Progressive Web App</p>
+        </div>
+    </div>
+</div>
 {% include 'includes/footer.html' %}
 {% endblock %}
