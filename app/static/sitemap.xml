@@ -1,0 +1,2511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/trending</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/about</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/84958/Loki/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/508943/Luca</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/423108/The%20Conjuring:%20The%20Devil%20Made%20Me%20Do%20It</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/337404/Cruella</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/399566/Godzilla%20vs.%20Kong</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/581726/Infinite</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/96677/Lupin/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/637649/Wrath%20of%20Man</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/602734/Spiral:%20From%20the%20Book%20of%20Saw</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/467909/In%20the%20Heights</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/615457/Nobody</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/520763/A%20Quiet%20Place%20Part%20II</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/607259/Fatherhood</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/550205/Wish%20Dragon</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/615658/Awake</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/632357/The%20Unholy</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/503736/Army%20of%20the%20Dead</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/385128/F9</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/602063/Rurouni%20Kenshin:%20The%20Final</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/103768/Sweet%20Tooth/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/817451/Endangered%20Species</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/460465/Mortal%20Kombat</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/522406/Flashback</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/726429/Xtreme</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/567189/Tom%20Clancy%27s%20Without%20Remorse</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/717192/Ferry</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/804435/Vanquish</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/808023/The%20Virtuoso</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/578701/Those%20Who%20Wish%20Me%20Dead</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/60735/The%20Flash/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/76669/Elite/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/71712/The%20Good%20Doctor/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/63174/Lucifer/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/1416/Grey%27s%20Anatomy/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/95057/Superman%20%26%20Lois/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/88396/The%20Falcon%20and%20the%20Winter%20Soldier/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/91557/Ragnarok/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/2734/Law%20%26%20Order:%20Special%20Victims%20Unit/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/69050/Riverdale/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/62286/Fear%20the%20Walking%20Dead/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/126525/Elite%20Short%20Stories:%20Carla%20Samuel/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/69478/The%20Handmaid%27s%20Tale/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/85271/WandaVision/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/126526/Elite%20Short%20Stories:%20Nadia%20Guzm%C3%A1n/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/80240/The%20Queen%20of%20Flow/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/105971/The%20Bad%20Batch/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/62643/DC%27s%20Legends%20of%20Tomorrow/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/91278/Marvel%27s%20Future%20Avengers/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/62127/Marvel%27s%20Iron%20Fist/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/62126/Marvel%27s%20Luke%20Cage/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/62285/Marvel%27s%20The%20Defenders/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/38472/Marvel%27s%20Jessica%20Jones/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/2098/Batman:%20The%20Animated%20Series/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/33217/Young%20Justice/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/79501/Doom%20Patrol/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/4604/Smallville/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/2287/Batman/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/236/The%20Flash/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/4331/Wonder%20Woman/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/4028/Legion%20of%20Super%20Heroes/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/4515/Lois%20%26%20Clark:%20The%20New%20Adventures%20of%20Superman/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/80986/Stargirl/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/75450/Titans/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/1412/Arrow/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/16859/Kiki%27s%20Delivery%20Service</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10948/The%20Fox%20and%20the%20Hound</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10895/Pinocchio</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/3170/Bambi</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/62211/Monsters%20University</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10009/Brother%20Bear</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10865/Atlantis:%20The%20Lost%20Empire</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/9806/The%20Incredibles</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/11047/Asterix%20the%20Gaul</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/235/Stand%20by%20Me</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/207/Dead%20Poets%20Society</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/12233/Oliver%20%26%20Company</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/9023/Spirit:%20Stallion%20of%20the%20Cimarron</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/12092/Alice%20in%20Wonderland</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10882/Sleeping%20Beauty</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/11224/Cinderella</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10530/Pocahontas</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/1267/Meet%20the%20Robinsons</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/364689/Ferdinand</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/585/Monsters%2C%20Inc.</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/11284/Freddy%27s%20Dead:%20The%20Final%20Nightmare</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/11596/New%20Nightmare</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10131/A%20Nightmare%20on%20Elm%20Street%204:%20The%20Dream%20Master</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10225/Friday%20the%2013th%20Part%20VI:%20Jason%20Lives</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/9731/Friday%20the%2013th:%20A%20New%20Beginning</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/6466/Freddy%20vs.%20Jason</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/11470/Jason%20X</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10281/Friday%20the%2013th%20Part%20VII:%20The%20New%20Blood</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10285/Jason%20Goes%20to%20Hell:%20The%20Final%20Friday</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10283/Friday%20the%2013th%20Part%20VIII:%20Jason%20Takes%20Manhattan</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/9725/Friday%20the%2013th%20Part%202</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/4488/Friday%20the%2013th</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/9728/Friday%20the%2013th%20Part%20III</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/377/A%20Nightmare%20on%20Elm%20Street</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/9730/Friday%20the%2013th:%20The%20Final%20Chapter</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10160/A%20Nightmare%20on%20Elm%20Street:%20The%20Dream%20Child</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/23823/Wrong%20Turn%203:%20Left%20for%20Dead</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10014/A%20Nightmare%20on%20Elm%20Street%20Part%202:%20Freddy%27s%20Revenge</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/71672/Wrong%20Turn%204:%20Bloody%20Beginnings</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/125509/Wrong%20Turn%205:%20Bloodlines</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/313922/Green%20Room</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/16367/Kinky%20Boots</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/277217/Descendants</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/297761/Suicide%20Squad</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/4564/Sex%20and%20the%20City</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/4599/Raising%20Helen</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/417320/Descendants%202</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/1103/Escape%20from%20New%20York</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/400617/Phantom%20Thread</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/420809/Maleficent:%20Mistress%20of%20Evil</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/580489/Venom:%20Let%20There%20Be%20Carnage</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/703771/Deathstroke:%20Knights%20%26%20Dragons%20-%20The%20Movie</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/75785/The%20Other%20F%20Word</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/341689/How%20to%20Talk%20to%20Girls%20at%20Parties</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/14924/Sid%20%26%20Nancy</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10279/Summer%20of%20Sam</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/2011/Persepolis</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/11849/Dungeons%20%26%20Dragons</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/342737/20th%20Century%20Women</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/421467/The%20Return%20of%20Godzilla</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/39256/Godzilla%201985</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/38582/Godzilla%20vs.%20Mechagodzilla</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/1680/King%20Kong%20vs.%20Godzilla</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/373571/Godzilla:%20King%20of%20the%20Monsters</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/18627/Son%20of%20Godzilla</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/1679/Godzilla%20Raids%20Again</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/15766/Ghidorah%2C%20the%20Three-Headed%20Monster</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/3115/Ebirah%2C%20Horror%20of%20the%20Deep</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/1682/Mothra%20vs.%20Godzilla</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/39462/All%20Monsters%20Attack</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/19336/Godzilla%20vs.%20Gigan</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/39264/Godzilla%20vs.%20Megalon</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/39464/Godzilla%20vs.%20Hedorah</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/340315/Godzilla</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/929/Godzilla</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/124905/Godzilla</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/6593/Godzilla%20vs.%20Mechagodzilla%20II</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/19545/Invasion%20of%20Astro-Monster</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/3107/Destroy%20All%20Monsters</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10528/Sherlock%20Holmes</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/336843/Maze%20Runner:%20The%20Death%20Cure</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/55846/Blitz</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/101299/The%20Hunger%20Games:%20Catching%20Fire</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/2669/The%20Bounty</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/281957/The%20Revenant</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/302/Swimming%20Pool</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/390584/King%20Cobra</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/402298/Denial</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/769/GoodFellas</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/628/Interview%20with%20the%20Vampire</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/17979/A%20Christmas%20Carol</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/4836/Layer%20Cake</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/317091/November%20Criminals</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/465929/Back%20Roads</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/63197/Megan%20Is%20Missing</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/123553/The%20Mortal%20Instruments:%20City%20of%20Bones</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/567970/Lost%20Girls</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/397837/Before%20I%20Fall</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/407451/A%20Wrinkle%20in%20Time</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/84977/Russian%20Doll/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/85486/Turn%20Up%20Charlie/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/67371/Graves/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/2332/L.A.%20Heat/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/60782/Married/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/76526/This%20Close/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/64378/Young%20%26%20Promising/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/94415/The%20Middleman/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/94244/Obliterated/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/112538/Over%20Christmas/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/127426/El%20tiempo%20que%20te%20doy/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/11835/Death%20Sentence</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/395834/Wind%20River</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/8292/Four%20Brothers</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/345887/The%20Equalizer%202</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/3134/Baise-moi</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/21072/Zero%20Tolerance</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/34746/Death%20Wish%20V:%20The%20Face%20of%20Death</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/37835/The%20Exterminator</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/18405/The%20Last%20House%20on%20the%20Left</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/332411/I%20Am%20Wrath</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/4771/Gone%20Baby%20Gone</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10222/Kickboxer</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/2112/Payback</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/180863/T2%20Trainspotting</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/37645/22%20Bullets</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/339403/Baby%20Driver</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/73861/A%20Serbian%20Film</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/445954/Acts%20of%20Vengeance</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/1572/Die%20Hard:%20With%20a%20Vengeance</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/631132/Goblin%20Slayer:%20Goblin%27s%20Crown</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/357096/I%20Spit%20on%20Your%20Grave%20III:%20Vengeance%20is%20Mine</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/15069/W%CE%94Z</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/18587/10%20to%20Midnight</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/26390/Brooklyn%27s%20Finest</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/11423/Memories%20of%20Murder</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/8090/Untraceable</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/984/Dirty%20Harry</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/283445/Sinister%202</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/1949/Zodiac</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/16007/Death%20Note</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/75780/Jack%20Reacher</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10781/The%20Texas%20Chainsaw%20Massacre:%20The%20Beginning</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/652004/The%20Wolf%20of%20Snow%20Hollow</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/524251/I%20See%20You</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/554908/Endings%2C%20Beginnings</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/26428/Agora</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/296178/Posthumous</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/460484/Mechanics%20of%20Love</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/24684/An%20Education</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/105/Back%20to%20the%20Future</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/567046/2%20In%20the%20Bush:%20A%20Love%20Story</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/719434/The%20Queen%20of%20Spades%C2%A0</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/244200/On%20the%20Green%20Carpet</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/509131/Here%20and%20There</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/648558/The%20Last%20Night</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/523635/Carving%20a%20Life</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/663923/Inside%20an%20Old%20Grave</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/235934/Little%20Beau%20Pep%C3%A9</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/774417/Running%20Water</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/184406/Felix%20Finds%20%E2%80%99Em%20Fickle</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/36349/Black%20Moon%20Rising</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/110109/Breach%20of%20Faith:%20A%20Family%20of%20Cops%20II</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/244509/Cold%20in%20July</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/146198/Triple%209</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/266285/The%20Salvation</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/133805/Carrie</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/400090/The%20Nightingale</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/49021/Killer%20Elite</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/23483/Kick-Ass</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/59967/Looper</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/291356/In%20a%20Valley%20of%20Violence</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/364/Batman%20Returns</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/447332/A%20Quiet%20Place</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/602/Independence%20Day</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/49849/Cowboys%20%26%20Aliens</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/527261/The%20Silence</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/57876/Area%2051</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/559957/Shanghai%20Fortress</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/126889/Alien:%20Covenant</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/106/Predator</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/346910/The%20Predator</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/74/War%20of%20the%20Worlds</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/34851/Predators</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/1091/The%20Thing</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/20424/Invaders%20from%20Mars</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/4965/Impostor</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/145221/Monsters:%20Dark%20Continent</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/561859/Alien%20Overlords</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/84226/The%20Day</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/205126/Independence%20Daysaster</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/3980/Critters</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/823037/Black%20Label</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/782236/Flesh%20Is%20Heir%20To</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/836269/Bed%20Bugs</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/828498/Uninvited</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/11449/The%20Amityville%20Horror</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/1683/The%20Reaping</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/750143/Honour%20Thy%20Mother</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/705392/The%20Deacon%20of%20Doom</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/924/Dawn%20of%20the%20Dead</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/572609/School-Live%21</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/485415/Day%20of%20the%20Dead:%20Bloodline</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/133121/Resident%20Evil:%20Damnation</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/8408/Day%20of%20the%20Dead</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/16281/Creepshow</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10925/The%20Return%20of%20the%20Living%20Dead</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/273477/Scouts%20Guide%20to%20the%20Zombie%20Apocalypse</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/19908/Zombieland</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/34004/Children%20of%20the%20Living%20Dead</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/301608/The%20Trust</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/298/Ocean%27s%20Thirteen</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/13648/Resident%20Evil:%20Degeneration</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/294254/Maze%20Runner:%20The%20Scorch%20Trials</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/72190/World%20War%20Z</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/616851/Untitled%20%27The%20Walking%20Dead%27%20Film</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/614696/%23Alive</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/375366/The%20Girl%20with%20All%20the%20Gifts</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/61888/The%20Last%20Man%20on%20Earth/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/6549/Wolverine%20and%20the%20X-Men/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/9045/The%20Stand/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/1469/Birds%20of%20Prey/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/40351/Green%20Lantern:%20The%20Animated%20Series/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/94305/The%20Walking%20Dead:%20World%20Beyond/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/313943/Revolt</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/238636/The%20Purge:%20Anarchy</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/499932/The%20Devil%20All%20the%20Time</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/158011/The%20Call</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/14211/Prey</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/17466/Death%20Warrant</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/9312/Mortal%20Kombat</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/9823/Mortal%20Kombat:%20Annihilation</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/1620/Hitman</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/9594/Double%20Impact</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/13486/The%20Scorpion%20King%202:%20Rise%20of%20a%20Warrior</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/9399/Lionheart</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/664767/Mortal%20Kombat%20Legends:%20Scorpion%27s%20Revenge</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/2502/The%20Bourne%20Supremacy</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/156022/The%20Equalizer</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/206487/Predestination</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/227719/Project%20Almanac</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/218/The%20Terminator</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/577922/Tenet</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/273271/Time%20Lapse</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/82703/Mr.%20Peabody%20%26%20Sherman</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/41154/Men%20in%20Black%203</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/23048/Hot%20Tub%20Time%20Machine</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/299534/Avengers:%20Endgame</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/818/Austin%20Powers%20in%20Goldmember</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/2135/The%20Time%20Machine</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/16325/Echelon%20Conspiracy</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/475215/Mirai</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/428099/Tomorrow%20I%20Will%20Date%20With%20Yesterday%27s%20You</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/14447/A%20Matter%20of%20Loaf%20and%20Death</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/550148/The%20Body</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/583631/Tank%20Cleaner</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/98948/Abraham%20Lincoln%20vs.%20Zombies</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/393/Kill%20Bill:%20Vol.%202</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/24/Kill%20Bill:%20Vol.%201</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/146/Crouching%20Tiger%2C%20Hidden%20Dragon</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/30806/Out%20for%20a%20Kill</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/9056/Police%20Story</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/13333/Game%20of%20Death</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/8382/Today%20You%20Die</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/24546/Into%20the%20Sun</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/15983/Invasion%20U.S.A.</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/48773/Game%20of%20Death%20II</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/33542/Rumble%20in%20the%20Bronx</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/11713/Fist%20of%20Fury</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/36647/Blade</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/9342/The%20Mask%20of%20Zorro</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/180299/The%20Raid%202</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/261023/Black%20Mass</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/10651/The%20Dead%20Pool</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/281/Strange%20Days</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/11826/Sexy%20Beast</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/2142/Cop%20Land</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/269494/A%20Hard%20Day</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/21610/Nighthawks</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/49049/Dredd</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/339692/Shot%20Caller</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/96/Beverly%20Hills%20Cop%20II</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/398978/The%20Irishman</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/655431/Psycho-Pass%203:%20First%20Inspector</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/8961/Bad%20Boys%20II</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/507/Killing%20Zoe</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/193893/Let%27s%20Be%20Cops</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/473149/Traffik</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/395990/Death%20Wish</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/146233/Prisoners</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/1266/Street%20Kings</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/7007/Rising%20Sun</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/123109/No%20One%20Lives</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/5925/The%20Great%20Escape</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/400387/Riphagen%20the%20Untouchable</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/411/The%20Chronicles%20of%20Narnia:%20The%20Lion%2C%20the%20Witch%20and%20the%20Wardrobe</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/movie/2454/The%20Chronicles%20of%20Narnia:%20Prince%20Caspian</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/62125/Vixen/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/88042/O%20Maidens%20in%20Your%20Savage%20Season/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/62602/Blue%20Spring%20Ride/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/68854/Kimi%20ni%20Todoke:%20From%20Me%20to%20You/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/82738/IRODUKU:%20The%20World%20in%20Colors/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/60827/One%20Week%20Friends/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/36941/Fruits%20Basket/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/61456/Free%21/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/42916/Toradora%21/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/66941/ReLIFE/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/65329/Hyouka/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/85991/Fruits%20Basket/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/45247/Chihayafuru/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/46041/My%20Little%20Monster/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/42557/Kids%20on%20the%20Slope/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/52878/Say%20%22I%20Love%20You.%22/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/8727/My%20Daddy%20Long%20Legs/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/85843/Kono%20Oto%20Tomare%21:%20Sounds%20of%20Life/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/61441/Yowamushi%20Pedal/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/69295/Masamune-kun%27s%20Revenge/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/90937/BEASTARS/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/39793/Call%20the%20Midwife/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/61014/The%20Knick/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/6467/Chicago%20Hope/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/57647/Good%20Doctor/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/63418/Code%20Black/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/62650/Chicago%20Med/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/65143/Descendants%20of%20the%20Sun/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/18660/Miami%20Medical/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/5080/Doctors/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/62266/Kill%20Me%2C%20Heal%20Me/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/43097/Saving%20Hope/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/60804/The%20Night%20Shift/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/10042/Doc/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/1028/Holby%20City/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/4588/ER/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/1021/Casualty/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/17362/Dr.%20Kildare/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/80350/New%20Amsterdam/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/74016/The%20Resident/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/68716/Marvel%27s%20Inhumans/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/61889/Marvel%27s%20Daredevil/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/67728/Doctor%20Doctor/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/1408/House/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/73613/La%20Mante/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/4330/Millennium/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/13916/Death%20Note/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/92602/ID:%20INVADED/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/70613/Black%20Spot/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/47510/Jack%20the%20Ripper/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/16399/The%20Twilight%20Zone/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/3470/Masters%20of%20Horror/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/62046/Scream%20Queens/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/2391/Tales%20from%20the%20Crypt/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/2913/Are%20You%20Afraid%20of%20the%20Dark%3F/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/25760/When%20They%20Cry/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/67743/Cardinal/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/80477/Angels%20of%20Death/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/1426/Luther/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/63648/Death%20Note/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/72844/The%20Haunting%20of%20Hill%20House/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/65784/Slasher/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/67744/Mindhunter/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/46648/True%20Detective/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/2171/Cold%20Case/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/61457/Grantchester/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/41956/Death%20in%20Paradise/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/60726/Forever/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/70626/Stranger/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/1431/CSI:%20Crime%20Scene%20Investigation/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/3716/Dragnet/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/46923/Shetland/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/62505/Unforgotten/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/40905/SOKO%20Stuttgart/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/46975/Crossing%20Lines/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/46316/Motive/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/194/NYPD%20Blue/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/45016/The%20Bridge/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/17611/Southland/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/3476/Inspector%20Morse/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/39351/Grimm/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/65693/Good%20Morning%20Call/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/16420/Boys%20Over%20Flowers/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/48462/The%20Heirs/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/61663/Your%20Lie%20in%20April/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/88040/Given/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/62688/Supergirl/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/68837/Justice%20League%20Action/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/110642/RESIDENT%20EVIL:%20Infinite%20Darkness/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/42589/Another/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/89247/Batwoman/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/62773/God%20Eater/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/61178/Corpse%20Party:%20Tortured%20Souls/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/67752/Channel%20Zero/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/93522/The%20Barrier/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/33234/The%20Pillars%20of%20the%20Earth/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/72615/Alias%20Grace/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/1457/Pride%20and%20Prejudice/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/82591/Goblin%20Slayer/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/39758/Bag%20of%20Bones/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/11203/Doctor%20Zhivago/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/66606/Roots/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/18156/Emma/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/61697/Wolf%20Hall/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/5256/The%20Mists%20of%20Avalon/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/5835/Goosebumps/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/5608/Centennial/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/799/Sherlock%20Holmes/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/82816/Lovecraft%20Country/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/19614/It/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/64464/11.22.63/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/61859/The%20Night%20Manager/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/53052/From%20the%20New%20World/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/2802/Waterloo%20Road/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/69629/The%20Gifted/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/64230/Preacher/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/37183/Dance%20in%20the%20Vampire%20Bund/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/35610/InuYasha/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/65333/Myriad%20Colors%20Phantom%20World/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/3626/American%20Idol/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/61461/Yona%20of%20the%20Dawn/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/69692/Ouro%20Verde/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/67043/91%20Days/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/35279/Austin%20%26%20Ally/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/37722/Dream%20High/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/39358/Revenge/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/3322/Oz/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/123079/G%C3%AAnesis/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/45815/Brazil%20Avenue/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/13945/Gute%20Zeiten%2C%20schlechte%20Zeiten/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/83639/Girl%20from%20Nowhere/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/65420/The%20Promise/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/64710/Noragami/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/5894/Gungrave/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://moviebox-tmdb.herokuapp.com/tv/13967/Liar%20Game/</loc>
+  <lastmod>2021-06-20T07:28:57+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
