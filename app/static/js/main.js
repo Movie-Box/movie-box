@@ -86,26 +86,3 @@ if ('serviceWorker' in navigator) {
             console.error('Unable to register service worker.', err);
         });
 }
-
-// Push Notifications
-const pushButton = document.getElementById('push-btn');
-pushButton.addEventListener('click', askPermission);
-notificationButtonUpdate();
-
-if (!("Notification" in window)) {
-    pushButton.hidden;
-}
-
-function askPermission(evt) {
-    pushButton.disabled = true;
-    Notification.requestPermission().then(function (permission) { notificationButtonUpdate(); });
-
-}
-
-function notificationButtonUpdate() {
-    if (Notification.permission == 'granted') {
-        pushButton.disabled = true;
-    } else {
-        pushButton.disabled = false;
-    }
-}

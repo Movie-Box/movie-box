@@ -1,4 +1,15 @@
 {% extends "layout.html" %}
+{% block meta %}
+<meta name="description" content="Movie Box Trending Movies and Tv Shows">
+{% endblock %}
+{% block social %}
+<meta property="og:image" content="{{url_for('static', filename='img/seo/og-image.jpg')}}">
+<meta property="og:image:height" content="1034">
+<meta property="og:image:width" content="1974">
+<meta property="og:title" content="Movie Box  Trending">
+<meta property="og:description" content="Movie Box Browse Trending Movies and Tv Shows">
+<meta property="og:url" content="https://moviebox-tmdb.herokuapp.com/trending">
+{% endblock %}
 {% block css %}
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 {% endblock %}
@@ -16,12 +27,12 @@
                     {% if trend['media_type'] == 'movie' %}
                     <a href="{{url_for('movie_detail', movie_id=trend['id'], movie_name=trend['title'])}}">
                     <img class="object-cover w-full h-70" src="https://image.tmdb.org/t/p/w1280{{trend['poster_path']}}"
-                        alt="avatar">
+                        alt="poster">
                     </a>
                     {% else %}
                     <a href="{{url_for('tv_detail', tv_id=trend['id'], tv_name=trend['name'])}}">
                     <img class="object-cover w-full h-70" src="https://image.tmdb.org/t/p/w1280{{trend['poster_path']}}"
-                        alt="avatar">
+                        alt="poster">
                     </a>
                     {% endif %}
                     <div class="w-56 -mt-10 overflow-hidden bg-white rounded-lg shadow-lg md:w-64 dark:bg-gray-800">                    

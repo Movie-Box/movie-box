@@ -5,14 +5,10 @@
 {% block body %}
 <div class="flex max-w-sm mx-auto overflow-hidden bg-blend-soft-light rounded-lg shadow-lg dark:bg-gray-800 lg:max-w-4xl mt-10">
     <div class="hidden bg-cover lg:block lg:w-1/2"
-        style="background-image:url({{url_for('static', filename='img/login.svg')}}); max-width: 100%;">
-    </div>
+        style="background-image:url({{url_for('static', filename='img/register.svg')}}); max-width: 100%;"></div>
 
     <div class="w-full px-6 py-8 md:px-8 lg:w-1/2">
-        <h2 class="text-2xl font-semibold text-center text-gray-700 dark:text-white">Movie Box</h2>
-
-        <p class="text-xl text-center text-gray-600 dark:text-gray-200 text-center">{% include 'includes/_messages.html' %}</p>
-
+        <p class="text-xl text-center text-gray-600 dark:text-gray-200">Create an Account</p>
         <a href="#"
             class="flex items-center justify-center mt-4 text-gray-600 rounded-lg shadow-md dark:bg-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-600">
             <div class="px-4 py-3">
@@ -31,7 +27,7 @@
                         fill="#1976D2" />
                 </svg>
             </div>
-
+        
             <span class="w-5/6 px-4 py-3 font-bold text-center">Sign in with Google</span>
         </a>
         <a href="#"
@@ -49,51 +45,76 @@
         <div class="flex items-center justify-between mt-4">
             <span class="w-1/5 border-b dark:border-gray-600 lg:w-1/4"></span>
 
-            <a href="#" class="text-xs text-center text-gray-500 uppercase dark:text-gray-400 hover:underline">or login
-                with email</a>
+            <p class="text-xs text-center text-gray-500 uppercase dark:text-gray-400">or Create Account with Email</p>
 
             <span class="w-1/5 border-b dark:border-gray-400 lg:w-1/4"></span>
         </div>
-
-        <form method="POST" novalidate>
+        <form method="POST" action="/register">
             {{ form.hidden_tag() }}
             <div class="mt-4">
-                <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200" for="LoggingEmailAddress">Email
+                <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200"
+                    for="LoggingEmailAddress">Username</label>
+                {{form.username(class="block w-full px-4 py-2 text-gray-700 bg-white border
+                border-gray-300
+                rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500
+                dark:focus:border-blue-500
+                focus:outline-none focus:ring")}}
+                {% for error in form.username.errors %}
+                <p class="text-sm text-red-500">{{ error }}</p>
+                {% endfor %}
+            </div>
+
+            <div class="mt-4">
+                <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200"
+                    for="LoggingEmailAddress">Email
                     Address</label>
-                {{form.email(id="LoggingEmailAddress", class="block w-full px-4 py-2 text-gray-700 bg-white border
-                border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500
-                dark:focus:border-blue-500 focus:outline-none focus:ring")}}
+                {{form.email(class="block w-full px-4 py-2 text-gray-700 bg-white border
+                border-gray-300
+                rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500
+                dark:focus:border-blue-500
+                focus:outline-none focus:ring")}}
                 {% for error in form.email.errors %}
                 <p class="text-sm text-red-500">{{ error }}</p>
                 {% endfor %}
             </div>
-        
+
             <div class="mt-4">
-                <div class="flex justify-between">
-                    <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200"
-                        for="loggingPassword">Password</label>
-                    <a href="#" class="text-xs text-gray-500 dark:text-gray-300 hover:underline">Forget Password?</a>
-                </div>
-                {{form.password(id="loggingPassword", class="block w-full px-4 py-2 text-gray-700 bg-white border
-                border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500
-                dark:focus:border-blue-500 focus:outline-none focus:ring" )}}
+                <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200"
+                    for="loggingPassword">Password</label>
+                {{form.password(class="block w-full px-4 py-2 text-gray-700 bg-white border
+                border-gray-300
+                rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600 focus:border-blue-500
+                dark:focus:border-blue-500
+                focus:outline-none focus:ring")}}
                 {% for error in form.password.errors %}
                 <p class="text-sm text-red-500">{{ error }}</p>
                 {% endfor %}
             </div>
-        
+            <div class="mt-4">
+                <label class="block mb-2 text-sm font-medium text-gray-600 dark:text-gray-200"
+                    for="loggingPassword">Confirm
+                    Password</label>
+                {{form.confirm_password(class="block w-full px-4 py-2 text-gray-700 bg-white
+                border
+                border-gray-300 rounded-md dark:bg-gray-800 dark:text-gray-300 dark:border-gray-600
+                focus:border-blue-500
+                dark:focus:border-blue-500 focus:outline-none focus:ring")}}
+                {% for error in form.confirm_password.errors %}
+                <p class="text-sm text-red-500">{{ error }}</p>
+                {% endfor %}
+            </div>
+
             <div class="mt-8">
-                <button type="submit"
+                <button
                     class="w-full px-4 py-2 tracking-wide text-white transition-colors duration-200 transform bg-gray-700 rounded hover:bg-gray-600 focus:outline-none focus:bg-gray-600">
-                    Login
+                    Register
                 </button>
             </div>
         </form>
-
         <div class="flex items-center justify-between mt-4">
             <span class="w-1/5 border-b dark:border-gray-600 md:w-1/4"></span>
 
-            <a href="{{url_for('register')}}" class="text-xs text-gray-500 uppercase dark:text-gray-400 hover:underline">or sign up</a>
+            <a href="{{url_for('login')}}" class="text-xs text-gray-500 uppercase dark:text-gray-400">or Login</a>
 
             <span class="w-1/5 border-b dark:border-gray-600 md:w-1/4"></span>
         </div>

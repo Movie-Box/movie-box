@@ -1,4 +1,15 @@
 {% extends "layout.html" %}
+{% block meta %}
+<meta name="description" content="Movie Box {{tv['name']}} and Overview:{{tv['overview']}}">
+{% endblock %}
+{% block social %}
+<meta property="og:image" content="https://image.tmdb.org/t/p/w1280{{tv['poster_path']}}">
+<meta property="og:image:height" content="1786">
+<meta property="og:image:width" content="1191">
+<meta property="og:title" content="Movie Box {{tv['name']}}">
+<meta property="og:description" content="Movie Box | Overview:{{tv['overview']}}">
+<meta property="og:url" content="https://moviebox-tmdb.herokuapp.com/movie/{{tv['id']}}/{{tv['name']}}">
+{% endblock %}
 {% block body %}
 <nav class="breadcrumb is-centered pt-3" aria-label="breadcrumbs">
     <ul>
@@ -38,7 +49,7 @@
     <div class="tile is-parent">
         <article class="tile is-child box">
             <figure class="image is-4by5">
-                <img src="https://image.tmdb.org/t/p/w1280{{ tv['poster_path']}}">
+                <img src="https://image.tmdb.org/t/p/w1280{{tv['poster_path']}}" alt="poster">
             </figure>
         </article>
     </div>
@@ -61,7 +72,7 @@
     {% for tv in similar_tv %}
     <div class="similar-movie">
         <a href="{{url_for('tv_detail', tv_id=tv['id'], tv_name=tv['name'])}}">
-            <img src="https://image.tmdb.org/t/p/w1280{{tv['poster_path']}}">
+            <img src="https://image.tmdb.org/t/p/w1280{{tv['poster_path']}}" alt="poster">
         </a>
         <div class="movie-info">
             <p>{{tv['name']}}</p>

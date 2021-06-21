@@ -1,18 +1,29 @@
 {% extends "layout.html" %}
+{% block meta %}
+<meta name="description" content="About Movie Box">
+{% endblock %}
+{% block social %}
+<meta property="og:image" content="{{url_for('static', filename='img/seo/og-image.jpg')}}">
+<meta property="og:image:height" content="1034">
+<meta property="og:image:width" content="1974">
+<meta property="og:title" content="Movie Box  About">
+<meta property="og:description" content="Movie Box About  Movie Box">
+<meta property="og:url" content="https://moviebox-tmdb.herokuapp.com/about">
+{% endblock %}
 {% block css %}
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 {% endblock %}
 {% block body %}
 
 <div class="max-w-md px-8 py-4 mx-auto mt-16 bg-blend-color-dodge rounded-lg shadow-lg dark:bg-gray-800 mb-2">
-    <h2 class="mt-2 text-2xl font-semibold text-gray-800 dark:text-white md:mt-0 md:text-3xl text-center">Movie Box</h2>
+    <h1 class="mt-2 text-2xl font-semibold text-gray-800 dark:text-white md:mt-0 md:text-3xl text-center">Movie Box</h1>
     <p class="mt-2 text-gray-600 dark:text-gray-200">Browse Wide Collection of Movie and Tv Shows</p>
 </div>
 <section class="bg-blend-color-dodge dark:bg-gray-900 lg:py-12 lg:flex lg:justify-center">
     <div class="bg-blend-color-dodge dark:bg-gray-800 lg:mx-8 lg:flex lg:max-w-5xl lg:shadow-lg lg:rounded-lg">
         <div class="lg:w-1/2">
             <div class="h-64 bg-cover lg:rounded-lg lg:h-full">
-                <img class="p-5 px-3" src="{{url_for('static', filename='img/tmdb.svg')}}" alt="tmdb logo">
+                <img class="p-5 px-3" src="{{url_for('static', filename='img/tmdb.svg')}}" alt="logo">
             </div>
         </div>
 

@@ -1,7 +1,10 @@
-from app.models import Movie
 from app import app, db
 from flask import render_template, redirect, url_for, flash, request, send_from_directory
+from flask_login import current_user, login_user, logout_user, login_required
+from app.forms import LoginForm, RegisterForm
+from app.models import User
 import requests
+from werkzeug.urls import url_parse
 
 
 @app.route('/sitemap.xml')
@@ -44,14 +47,14 @@ def trending():
     url = 'https://api.themoviedb.org/3/trending/all/week?api_key=6759ed5eeb52690e2718450fa55c04f4'
     response = requests.get(url)
     trending = response.json()
-    return render_template('trending.html', title='Trending', trends=trending['results'], media_type=trending['results'])
+    return render_template('trending.html', title='Browse Trending Movies and Tv Shows', trends=trending['results'], media_type=trending['results'])
 
 @app.route('/movie')
 def popular_movie():
     url = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=6759ed5eeb52690e2718450fa55c04f4&page=1'
     response = requests.get(url)
     movie_json = response.json()
-    return render_template('popular_movie.html', title='Popular Movie', movies=movie_json['results'])
+    return render_template('popular_movie.html', title='Browse Popular Movies', movies=movie_json['results'])
 
 @app.get("/movie/<movie_id>/<movie_name>")
 @app.post("/movie/<movie_id>/<movie_name>")
@@ -69,7 +72,7 @@ def popular_tv():
     url = 'https://api.themoviedb.org/3/tv/popular?api_key=6759ed5eeb52690e2718450fa55c04f4&language=en-US&page=1'
     response = requests.get(url)
     popular_tv = response.json()
-    return render_template('popular_tv.html', title='Popular TV Shows', tvs=popular_tv['results'])
+    return render_template('popular_tv.html', title='Browse Popular TV Shows', tvs=popular_tv['results'])
 
 @app.route("/tv/<tv_id>/<tv_name>/")
 def tv_detail(tv_id, tv_name):
@@ -83,13 +86,49 @@ def tv_detail(tv_id, tv_name):
 
 @app.route('/about')
 def about():
-    return render_template('about.html')
+    return render_template('about.html', title='About')
 
 @app.route('/service-worker.js')
 def sw():
     return app.send_static_file('service-worker.js'), 200, {'Content-Type': 'text/javascript'}
 
 
-@app.route("/login")
+@app.get("/login")
+@app.post("/login")
 def login():
-    return render_template('auth/login.html')
+    if current_user.is_authenticated:
+        return redirect(url_for('index'))
+    form = LoginForm()
+    if form.validate_on_submit():
+        user = User.query.filter_by(email=form.email.data).first()
+        if user is None or not user.check_password(form.password.data):
+            flash('Invalid Email or password', 'danger')
+            return redirect(url_for('login'))
+        login_user(user, remember=form.remember_me.data)
+        next_page = request.args.get('next')
+        if not next_page or url_parse(next_page).netloc != '':
+            next_page = url_for('index')
+        return redirect(next_page)
+    return render_template('auth/login.html', title='Login into your account', form=form)
+
+@app.route('/logout')
+@login_required
+def logout():
+    logout_user()
+    return redirect(url_for('index'))
+
+
+@app.get("/register")
+@app.post("/register")
+def register():
+    if current_user.is_authenticated:
+        return redirect(url_for('index'))
+    form = RegisterForm()
+    if form.validate_on_submit():
+        user = User(username=form.username.data, email=form.email.data)
+        user.set_password(form.password.data)
+        db.session.add(user)
+        db.session.commit()
+        flash('You are now a registered user!')
+        return redirect(url_for('login'))
+    return render_template('auth/register.html', title='Sign up for a new account', form=form)

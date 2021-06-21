@@ -1,6 +1,15 @@
 {% extends "layout.html" %}
 {% block meta %}
 <meta name="google-site-verification" content="lk53w_NMGA4Y-3-nMNzkYzRUqaSlXdgDvkxDYZUcTs0" />
+<meta name="description" content="Movie Box Browse Movies and Tv Shows">
+{% endblock %}
+{% block social %}
+<meta property="og:image" content="{{url_for('static', filename='img/seo/og-image.jpg')}}">
+<meta property="og:image:height" content="1034">
+<meta property="og:image:width" content="1974">
+<meta property="og:title" content="Movie Box Home">
+<meta property="og:description" content="Movie Box Home | Movie Box">
+<meta property="og:url" content="https://moviebox-tmdb.herokuapp.com">
 {% endblock %}
 {% block css %}
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
@@ -11,7 +20,8 @@
         <div class="items-center lg:flex">
             <div class="w-full lg:w-1/2">
                 <div class="lg:max-w-lg">
-                    <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl">Search<span
+                    <h1 class="text-2xl font-semibold text-purple-500 dark:text-white lg:text-3xl">Movie Box</h1>
+                    <h1 class="text-2xl font-semibold text-gray-800 dark:text-white lg:text-3xl mt-1">Search<span
                             class="text-indigo-500"> Movies</span> or<span class="text-purple-500"> Tv Show</span> </h1>
 
                     <form method="POST">
@@ -51,5 +61,5 @@
         </div>
     </div>
 </header>
-{% include 'includes/footer.html' %}
+    {% include 'includes/footer.html' %}
 {% endblock %}
