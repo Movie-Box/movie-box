@@ -86,3 +86,4 @@ if ('serviceWorker' in navigator) {
             console.error('Unable to register service worker.', err);
         });
 }
+

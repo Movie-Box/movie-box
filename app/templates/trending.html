@@ -42,28 +42,30 @@
                             </p>
                         </div>
                     </div>
-                    <div class="py-5 text-center">
-                        {% if trend['media_type'] == 'movie' %}
-                        
-                         <a href="{{url_for('movie_detail', movie_id=trend['id'], movie_name=trend['title'])}}"
-                            class="block text-1xl font-small text-gray-800 dark:text-white">
+                    <div class="p-1">
+                        <div class="py-1 text-center text-sm flex justify-between p-2">
+                            {% if trend['media_type'] == 'movie' %}
                             
-                            {{trend['title']}}
+                            <a href="{{url_for('movie_detail', movie_id=trend['id'], movie_name=trend['title'])}}"
+                                class="block text-1xl font-small text-gray-800 dark:text-white">
+                                
+                                {{trend['title']}}
+                                
+                            </a>
+                            <span class="text-sm text-gray-700 dark:text-gray-200">
+                                <span class="tag is-link">{{trend['vote_average']}}</span>
+                            </span> 
+                            {% else %}
+                            <a href="{{url_for('tv_detail', tv_id=trend['id'], tv_name=trend['name'])}}" class="block text-1xl font-small text-gray-800 dark:text-white">
                             
-                        </a>
-                        <span class="text-sm text-gray-700 dark:text-gray-200">
-                            <span class="tag is-link">{{trend['vote_average']}}</span>
-                        </span> 
-                        {% else %}
-                        <a href="{{url_for('tv_detail', tv_id=trend['id'], tv_name=trend['name'])}}" class="block text-1xl font-small text-gray-800 dark:text-white">
-                           
-                            {{trend['name']}}
-                           
-                        </a>
-                        <span class="text-sm text-gray-700 dark:text-gray-200">
-                            <span class="tag is-link">{{trend['vote_average']}}</span>
-                        </span>
-                        {% endif %}
+                                {{trend['name']}}
+                            
+                            </a>
+                            <span class="text-sm text-gray-700 dark:text-gray-200">
+                                <span class="tag is-link">{{trend['vote_average']}}</span>
+                            </span>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
             </div>

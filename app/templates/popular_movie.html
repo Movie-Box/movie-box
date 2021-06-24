@@ -6,12 +6,13 @@
 <meta property="og:image" content="{{url_for('static', filename='img/seo/og-image.jpg')}}">
 <meta property="og:image:height" content="1034">
 <meta property="og:image:width" content="1974">
-<meta property="og:title" content="Movie Box  Popular Movies">
-<meta property="og:description" content="Movie Box  Popular Movies | Movie Box">
+<meta property="og:title" content="Movie Box : Popular Movies">
+<meta property="og:description" content="Popular Movies : Movie Box">
 <meta property="og:url" content="https://moviebox-tmdb.herokuapp.com/movie">
 {% endblock %}
 {% block css %}
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
 {% endblock %}
 {% block body %}
 <section class="text-gray-600 body-font">
@@ -29,11 +30,13 @@
                     <img class="object-cover w-full h-70" src="https://image.tmdb.org/t/p/w1280{{movie['poster_path']}}"
                         alt="poster">
                     </a>
-                    <div class="py-5 text-center">
-                        <a href="{{url_for('movie_detail', movie_id=movie['id'], movie_name=movie['title'])}}"
-                            class="block text-1xl font-small text-gray-800 dark:text-white">{{movie['title']}}</a>
-                        <span class="text-sm text-gray-700 dark:text-gray-200"><span
-                                class="tag is-link">{{movie['vote_average']}}</span></span>
+                    <div class="p-1">
+                        <div class="py-1 text-center text-sm flex justify-between p-2">
+                            <a href="{{url_for('movie_detail', movie_id=movie['id'], movie_name=movie['title'])}}"
+                                class="block text-1xl font-small text-gray-800 dark:text-white">{{movie['title']}}</a>
+                            <span class="text-sm text-gray-700 dark:text-gray-200">
+                                <span class="tag is-link">{{movie['vote_average']}}</span></span>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -41,4 +44,7 @@
         </div>
     </div>
 </section>
+{% endblock %}
+{% block script %}
+
 {% endblock %}

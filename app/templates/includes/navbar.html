@@ -27,51 +27,24 @@
             <a href="{{url_for('popular_tv')}}" class="navbar-item">
                 Tv Shows
             </a>
-            
-            <div class="navbar-item has-dropdown is-hoverable">
-                <p class="navbar-link">
-                    More
-                </p>
-                
-                <div class="navbar-dropdown">
-                    {% if current_user.is_authenticated %}
-                    <a href="{{url_for('logout')}}" class="navbar-item">
-                        Logout
-                    </a>
-                    {% else %}
-                    <a href="{{url_for('login')}}" class="navbar-item">
-                        Login
-                    </a>
-                    <a href="{{url_for('register')}}" class="navbar-item">
-                        Register
-                    </a>
-                    {% endif %}
-                    <a href="{{url_for('about')}}" class="navbar-item">
-                        About
-                    </a>
-                    <hr class="navbar-divider">
-                    <p class="navbar-item">
-                        <button id="installButton"
-                            class="px-2 py-1 font-small tracking-wide text-white capitalize transition-colors duration-200 transform bg-green-600 rounded-md dark:bg-gray-800 hover:bg-purple-500 dark:hover:bg-gray-700 focus:outline-none focus:bg-blue-500 dark:focus:bg-gray-700" hidden>
-                            Install
-                        </button>
-                    </p>
-                </div>
-            </div>
+            <a href="{{url_for('about')}}" class="navbar-item">
+                About
+            </a>
+            <p class="navbar-item">
+                <button id="installButton"
+                    class="px-2 py-1 font-small tracking-wide text-white capitalize transition-colors duration-200 transform bg-green-600 rounded-md dark:bg-gray-800 hover:bg-purple-500 dark:hover:bg-gray-700 focus:outline-none focus:bg-blue-500 dark:focus:bg-gray-700"
+                    hidden>
+                    Install
+                </button>
+            </p>
         </div>
 
         <div class="navbar-end">
-            {% if current_user.is_authenticated %}
-            <p class="navbar-item">
-                Welcome, {{current_user.username}}
-            </p>
-            {% else %}
             <p class="navbar-item">
                 <a class="github-button" href="https://github.com/default-sameer/movie-box"
                     data-color-scheme="no-preference: light; light: light; dark: light;" data-show-count="true"
                     aria-label="Star default-sameer/movie-box on GitHub">Star</a>
             </p>
-            {% endif %}
         </div>
     </div>
 </nav>

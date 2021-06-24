@@ -1,8 +1,8 @@
 from app import app, db
 from flask import render_template, redirect, url_for, flash, request, send_from_directory
 from flask_login import current_user, login_user, logout_user, login_required
-from app.forms import LoginForm, RegisterForm
-from app.models import User
+from app.forms import LoginForm, RegisterForm, EmptyForm
+from app.models import User, Bookmark
 import requests
 from werkzeug.urls import url_parse
 
@@ -42,19 +42,23 @@ def index():
                 return render_template('search.html',  tvs=tv_json['results'])
     return render_template('index.html', title='Home')
 
-@app.route("/trending")
+@app.get("/trending")
+@app.post("/trending")
 def trending():
+    form = EmptyForm()
     url = 'https://api.themoviedb.org/3/trending/all/week?api_key=6759ed5eeb52690e2718450fa55c04f4'
     response = requests.get(url)
     trending = response.json()
-    return render_template('trending.html', title='Browse Trending Movies and Tv Shows', trends=trending['results'], media_type=trending['results'])
+    return render_template('trending.html', title='Browse Trending Movies and Tv Shows', trends=trending['results'], media_type=trending['results'], form=form)
 
-@app.route('/movie')
+@app.get('/movie')
+@app.post('/movie')
 def popular_movie():
+    form = EmptyForm()
     url = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=6759ed5eeb52690e2718450fa55c04f4&page=1'
     response = requests.get(url)
     movie_json = response.json()
-    return render_template('popular_movie.html', title='Browse Popular Movies', movies=movie_json['results'])
+    return render_template('popular_movie.html', title='Browse Popular Movies', movies=movie_json['results'], form=form)
 
 @app.get("/movie/<movie_id>/<movie_name>")
 @app.post("/movie/<movie_id>/<movie_name>")
@@ -67,12 +71,14 @@ def movie_detail(movie_id, movie_name):
     similar_movie_detail = similar_movie_response.json()
     return render_template('movie-detail.html', title=movie_name, movie=movie_detail, types=movie_detail['genres'], similar_movie=similar_movie_detail['results'])
 
-@app.route('/tv')
+@app.get('/tv')
+@app.post('/tv')
 def popular_tv():
+    form = EmptyForm()
     url = 'https://api.themoviedb.org/3/tv/popular?api_key=6759ed5eeb52690e2718450fa55c04f4&language=en-US&page=1'
     response = requests.get(url)
     popular_tv = response.json()
-    return render_template('popular_tv.html', title='Browse Popular TV Shows', tvs=popular_tv['results'])
+    return render_template('popular_tv.html', title='Browse Popular TV Shows', tvs=popular_tv['results'], form=form)
 
 @app.route("/tv/<tv_id>/<tv_name>/")
 def tv_detail(tv_id, tv_name):
@@ -93,8 +99,9 @@ def sw():
     return app.send_static_file('service-worker.js'), 200, {'Content-Type': 'text/javascript'}
 
 
-@app.get("/login")
-@app.post("/login")
+@app.get("/--login")
+@app.post("/--login")
+@login_required
 def login():
     if current_user.is_authenticated:
         return redirect(url_for('index'))
@@ -111,15 +118,16 @@ def login():
         return redirect(next_page)
     return render_template('auth/login.html', title='Login into your account', form=form)
 
-@app.route('/logout')
+@app.route('/--logout')
 @login_required
 def logout():
     logout_user()
     return redirect(url_for('index'))
 
 
-@app.get("/register")
-@app.post("/register")
+@app.get("/--register")
+@app.post("/--register")
+@login_required
 def register():
     if current_user.is_authenticated:
         return redirect(url_for('index'))
@@ -132,3 +140,4 @@ def register():
         flash('You are now a registered user!')
         return redirect(url_for('login'))
     return render_template('auth/register.html', title='Sign up for a new account', form=form)
+

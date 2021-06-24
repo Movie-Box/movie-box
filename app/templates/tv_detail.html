@@ -1,13 +1,13 @@
 {% extends "layout.html" %}
 {% block meta %}
-<meta name="description" content="Movie Box {{tv['name']}} and Overview:{{tv['overview']}}">
+<meta name="description" content="Movie Box : {{tv['name']}} Overview:{{tv['overview']}}">
 {% endblock %}
 {% block social %}
 <meta property="og:image" content="https://image.tmdb.org/t/p/w1280{{tv['poster_path']}}">
 <meta property="og:image:height" content="1786">
 <meta property="og:image:width" content="1191">
-<meta property="og:title" content="Movie Box {{tv['name']}}">
-<meta property="og:description" content="Movie Box | Overview:{{tv['overview']}}">
+<meta property="og:title" content="{{tv['name']}} : Movie Box">
+<meta property="og:description" content="Movie Overview:{{tv['overview']}}">
 <meta property="og:url" content="https://moviebox-tmdb.herokuapp.com/tv/{{tv['id']}}/{{tv['name']}}">
 {% endblock %}
 {% block body %}

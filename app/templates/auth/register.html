@@ -1,4 +1,12 @@
 {% extends "layout.html" %}
+{% block social %}
+<meta property="og:image" content="{{url_for('static', filename='img/seo/og-image.jpg')}}">
+<meta property="og:image:height" content="1034">
+<meta property="og:image:width" content="1974">
+<meta property="og:title" content="Movie Box | Register">
+<meta property="og:description" content="Sign up for New Account | Movie Box">
+<meta property="og:url" content="https://moviebox-tmdb.herokuapp.com/register">
+{% endblock %}
 {% block css %}
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 {% endblock %}
