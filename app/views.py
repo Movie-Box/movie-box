@@ -11,12 +11,24 @@ from werkzeug.urls import url_parse
 def static_from_root():
     return send_from_directory(app.static_folder, request.path[1:])
 
+@app.cli.command('refresh')
+def refresh():
+    db.drop_all()
+    db.create_all()
+    u1 = User(username='sameer', email='sameer@sameer.com', password_hash='pbkdf2:sha256:260000$uIx3mtrVJqZ5mU23$172a5ef2813b592e4c78addfda6ddd13738850c825c8d5c6ebdabf390fd3a290', admin=True )
+    u2 = User(username='Test@123', email='test@test.com', password_hash='pbkdf2:sha256:260000$VxQC6VwnTWuP95VG$acb886564f48b687303010c74ea7ca9800b6e529df41b9653ee5a4822df4cde4' )
+    db.session.add(u1)
+    db.session.add(u2)
+    db.session.commit()
+    print('Refresh Sucessful')
+
 
 @app.get("/")
 @app.post("/")
 def index():
     movie = 'https://api.themoviedb.org/3/search/movie?api_key=6759ed5eeb52690e2718450fa55c04f4&query={}'
     tv = 'https://api.themoviedb.org/3/search/tv?api_key=6759ed5eeb52690e2718450fa55c04f4&query={}'
+    form = EmptyForm()
     if request.method == 'POST':
         query = request.form.get('search')
         option = request.form.get('options')
@@ -29,7 +41,7 @@ def index():
                 flash('Beep Boop! Search Is Empty')
                 return redirect(url_for('index'))
             else:
-                return render_template('search.html', movies=movie_json['results'])
+                return render_template('search.html', movies=movie_json['results'], form=form)
         elif option == 'tv':
             response = requests.get(tv.format(query))
             tv_json = response.json()
@@ -39,7 +51,7 @@ def index():
                 flash('Beep Boop! Search Is Empty')
                 return redirect(url_for('index'))
             else:
-                return render_template('search.html',  tvs=tv_json['results'])
+                return render_template('search.html',  tvs=tv_json['results'], form=form)
     return render_template('index.html', title='Home')
 
 @app.get("/trending")
@@ -99,9 +111,8 @@ def sw():
     return app.send_static_file('service-worker.js'), 200, {'Content-Type': 'text/javascript'}
 
 
-@app.get("/--login")
-@app.post("/--login")
-@login_required
+@app.get("/login")
+@app.post("/login")
 def login():
     if current_user.is_authenticated:
         return redirect(url_for('index'))
@@ -118,16 +129,18 @@ def login():
         return redirect(next_page)
     return render_template('auth/login.html', title='Login into your account', form=form)
 
-@app.route('/--logout')
+@app.route('/logout')
 @login_required
 def logout():
     logout_user()
     return redirect(url_for('index'))
 
+# 3rd party Login
 
-@app.get("/--register")
-@app.post("/--register")
-@login_required
+
+
+@app.get("/register")
+@app.post("/register")
 def register():
     if current_user.is_authenticated:
         return redirect(url_for('index'))
@@ -141,3 +154,37 @@ def register():
         return redirect(url_for('login'))
     return render_template('auth/register.html', title='Sign up for a new account', form=form)
 
+@app.get('/bookmark/<media_id>/<media_type>/<media_name>/<user_id>')
+@app.post('/bookmark/<media_id>/<media_type>/<media_name>/<user_id>')
+@login_required
+def bookmark(media_id, media_type, media_name, user_id):
+    form = EmptyForm()
+    if form.validate_on_submit():
+        media_id = Bookmark.query.filter_by(media_id=media_id).first()
+        if media_id is None:
+            bookmark = Bookmark(media_id=media_id, media_type=media_type, title=media_name, user_id=user_id)
+            db.session.add(bookmark)
+            db.session.commit()
+            flash('Bookmark Added')
+            return redirect(url_for('user_bookmarks'))
+        else:
+            flash('Already Bookmarked')
+            return redirect(url_for('user_bookmarks'))
+        
+@app.post('/remove/<id>')
+@login_required
+def remove(id):
+    bookmark = Bookmark.query.get_or_404(id)
+    db.session.delete(bookmark)
+    db.session.commit()
+    flash('Bookmark Removed')
+    return redirect(request.referrer)
+        
+
+@app.get("/my_bookmarks")
+@app.post("/my_bookmarks")
+@login_required
+def user_bookmarks():
+    form = EmptyForm()
+    bookmarks = Bookmark.query.filter_by(user=current_user).order_by(Bookmark.timestamp.desc())
+    return render_template('user/user_bookmarks.html', title='My Bookamrks', bookmarks=bookmarks, form=form)

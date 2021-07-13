@@ -1,0 +1,63 @@
+{% extends "layout.html" %}
+{% block css %}
+<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+{% endblock %}
+{% block body %}
+{% include 'includes/_messages.html' %}
+<div class="flex flex-col text-center w-full pt-5">
+    <h1 class="sm:text-3xl text-2xl font-bold title-fonttext-gray-900">
+        <p class="title dd-link gradient style1">My Bookmarks</p></h1>
+</div>
+{% if bookmarks %}
+<section class="text-gray-600 body-font">
+    <div class="container px-5 py-5 mx-auto">
+        <div class="flex flex-wrap -m-4">
+            {% for bookmark in bookmarks %}
+            <div class="p-5 lg:w-1/3">
+                <div
+                    class="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
+                    <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">{{bookmark.media_type}}</h2>
+                    <h1 class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">{{bookmark.title}}</h1>
+                    {% if bookmark.media_type == 'movie' %}
+                    <a href="#" class="text-indigo-500 inline-flex items-center">View
+                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                    {% else %}
+                    <a href="#" class="text-indigo-500 inline-flex items-center">View
+                        <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                    {% endif %}
+                   
+                    <div class="text-center mt-2 leading-none flex justify-center absolute bottom-0 left-0 w-full py-4">
+                        
+                        <span class="text-gray-400 inline-flex items-center leading-none text-sm">
+                            <form action="{{url_for('remove', id=bookmark.id)}}" method="POST">
+                                {{ form.hidden_tag() }}
+                            <button>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M17 22H7C5.89543 22 5 21.1046 5 20V7H3V5H7V4C7 2.89543 7.89543 2 9 2H15C16.1046 2 17 2.89543 17 4V5H21V7H19V20C19 21.1046 18.1046 22 17 22ZM7 7V20H17V7H7ZM9 4V5H15V4H9ZM15 18H13V9H15V18ZM11 18H9V9H11V18Z"
+                                        fill="#2E3A59"></path>
+                                </svg>
+                            </button>
+                            </form>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+{% else %}
+<h1 class="text-gray-900 text-lg mb-1 font-medium title-font">No Bookmarks</h1>
+{% endif %}
+{% endblock %}

@@ -13,3 +13,9 @@ class Config(object):
     SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL') or \
         'sqlite:///' + os.path.join(basedir, 'moviebox.db')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    
+    # FACEBOOK_ID = os.environ.get("FACEBOOK_OAUTH_CLIENT_ID")
+    # FACEBOOK_SECRET = os.environ.get("FACEBOOK_OAUTH_CLIENT_SECRET")
+    
+    # GOOGLE_ID = os.environ.get("GOOGLE_OAUTH_CLIENT_ID")
+    # GOOGLE_SECRET = os.environ.get("GOOGLE_OAUTH_CLIENT_SECRET")
