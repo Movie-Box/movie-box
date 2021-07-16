@@ -1,3 +1,4 @@
 tmdb
 *__pycache__
 backup.yml
+movie.db

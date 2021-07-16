@@ -31,14 +31,23 @@
                 About
             </a>
             <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
+                <p class="navbar-link">
                     More
-                </a>
+                </p>
                 <div class="navbar-dropdown">
                     {% if current_user.is_authenticated %}
                     <a href="{{url_for('user_bookmarks')}}" class="navbar-item">
                         Bookmarks
                     </a>
+                    {% if current_user.admin %}
+                    <a href="{{url_for('setting')}}" class="navbar-item">
+                        Settings
+                    </a>
+                    
+                    <a href="{{url_for('account', username=current_user.username)}}" class="navbar-item">
+                        Account
+                    </a>
+                    {% endif %}
                     <hr class="navbar-divider">
                     <a href="{{url_for('logout')}}" class="navbar-item">
                         Logout
@@ -60,13 +69,14 @@
                     Install
                 </button>
             </p>
-            {% if current_user.admin %}
-            
-            {% endif %}
+           
         </div>
 
         <div class="navbar-end">
             {% if current_user.is_authenticated %}
+            <p class="navbar-item">Hello, <a href="{{url_for('account', username=current_user.username)}}">
+            <b>{{current_user.username}}</b></a>
+            </p>
             {% else %}
             <p class="navbar-item">
                 <a class="github-button" href="https://github.com/default-sameer/movie-box"

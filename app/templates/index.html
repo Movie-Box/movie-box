@@ -16,6 +16,7 @@
 <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 {% endblock %}
 {% block body %}
+{% include 'includes/_messages.html' %}
 <header class="bg-blend-color-dodge dark:bg-gray-800">
     <div class="container px-6 py-11 mx-auto">
         <div class="items-center lg:flex">
@@ -61,5 +62,5 @@
         </div>
     </div>
 </header>
-    {% include 'includes/footer.html' %}
+{% include 'includes/footer.html' %}
 {% endblock %}
