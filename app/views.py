@@ -227,10 +227,6 @@ def google_logged_in(blueprint, token):
             # picture=google_info["picture"],
             username=google_info["given_name"]
         )
-        user_email = User.query.filter_by(email=email)
-        if user_email:
-            flash('Do you Want to Crash The Server? The Email Already Exist!')
-            return redirect(request.referrer)
         oauth.user = user
         db.session.add_all([user, oauth])
         db.session.commit()
@@ -318,13 +314,6 @@ def user_bookmarks():
 def setting():
     users = User.query.all()
     return render_template('admin/settings.html', title='Settings', users=users)
-
-@app.route("/account/<username>")
-@login_required
-@is_admin
-def account(username):
-    account_info = User.query.filter_by(username=username)
-    return render_template('user/account.html', title=current_user.username, user=account_info)
 
 # End Admin
 

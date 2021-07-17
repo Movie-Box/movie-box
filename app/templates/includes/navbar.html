@@ -43,10 +43,6 @@
                     <a href="{{url_for('setting')}}" class="navbar-item">
                         Settings
                     </a>
-                    
-                    <a href="{{url_for('account', username=current_user.username)}}" class="navbar-item">
-                        Account
-                    </a>
                     {% endif %}
                     <hr class="navbar-divider">
                     <a href="{{url_for('logout')}}" class="navbar-item">
@@ -74,8 +70,8 @@
 
         <div class="navbar-end">
             {% if current_user.is_authenticated %}
-            <p class="navbar-item">Hello, <a href="{{url_for('account', username=current_user.username)}}">
-            <b>{{current_user.username}}</b></a>
+            <p class="navbar-item">Hello,
+            <b>{{current_user.username}}</b>
             </p>
             {% else %}
             <p class="navbar-item">
