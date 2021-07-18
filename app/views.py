@@ -15,7 +15,7 @@ from app.utils import is_admin
 
 
 
-google_bp = make_google_blueprint(scope=["profile", "email"], client_id='463516744667-5jqhnjdue26u4k99q44nbtr7dh5gbnc8.apps.googleusercontent.com', client_secret='eesXntMy1cL0VYBoSGKzsPVw')
+google_bp = make_google_blueprint(scope=["profile", "email"], client_id='463516744667-7h0ru73dolaomrcssfcq8k3jbvavcbqk.apps.googleusercontent.com', client_secret='PvBnVi3ckkWcpNm606vv71bS')
 app.register_blueprint(google_bp,  url_prefix="/google_login")
 
 google_bp.storage = SQLAlchemyStorage(OAuth, db.session)
