@@ -30,3 +30,4 @@ urllib3==1.26.5
 URLObject==2.4.3
 Werkzeug==2.0.1
 WTForms==2.3.3
+dotenv

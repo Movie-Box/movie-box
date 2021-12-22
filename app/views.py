@@ -12,10 +12,11 @@ from sqlalchemy.orm.exc import NoResultFound
 from flask_dance.consumer.storage.sqla import SQLAlchemyStorage
 from app.email import send_password_reset_email, email_verification
 from app.utils import is_admin
+import os
 
 
 
-google_bp = make_google_blueprint(scope=["profile", "email"], client_id='463516744667-7h0ru73dolaomrcssfcq8k3jbvavcbqk.apps.googleusercontent.com', client_secret='PvBnVi3ckkWcpNm606vv71bS')
+google_bp = make_google_blueprint(scope=["profile", "email"], client_id=os.environ.get('CLIENT_ID'), client_secret=os.environ.get('CLIENT_SECRET'))
 app.register_blueprint(google_bp,  url_prefix="/google_login")
 
 google_bp.storage = SQLAlchemyStorage(OAuth, db.session)
@@ -24,20 +25,12 @@ google_bp.storage = SQLAlchemyStorage(OAuth, db.session)
 def static_from_root():
     return send_from_directory(app.static_folder, request.path[1:])
 
-@app.cli.command('refresh')
-def refresh():
-    db.drop_all()
-    db.create_all()
-    u1 = User(username='Sameer Joshi', email='sameerjoshicr7@gmail.com', password_hash='pbkdf2:sha256:260000$a4ZBNBsuCBJtsKr7$853636ac11c4a2261eee9ed43a28382ad01952cff8411961a4d1e795908ff66f', admin=True, email_confirmed=True )
-    db.session.add(u1)
-    db.session.commit()
-    print('Data Added')
 
 @app.get("/")
 @app.post("/")
 def index():
-    movie = 'https://api.themoviedb.org/3/search/movie?api_key=6759ed5eeb52690e2718450fa55c04f4&query={}'
-    tv = 'https://api.themoviedb.org/3/search/tv?api_key=6759ed5eeb52690e2718450fa55c04f4&query={}'
+    movie = 'https://api.themoviedb.org/3/search/movie?api_key=os.environ.get("API_KEY")&query={}'
+    tv = 'https://api.themoviedb.org/3/search/tv?api_key=os.environ.get("API_KEY")&query={}'
     form = EmptyForm()
     if request.method == 'POST':
         query = request.form.get('search')
@@ -68,7 +61,7 @@ def index():
 @app.post("/trending")
 def trending():
     form = EmptyForm()
-    url = 'https://api.themoviedb.org/3/trending/all/week?api_key=6759ed5eeb52690e2718450fa55c04f4'
+    url = 'https://api.themoviedb.org/3/trending/all/week?api_key=os.environ.get("API_KEY")'
     response = requests.get(url)
     trending = response.json()
     return render_template('trending.html', title='Browse Trending Movies and Tv Shows', trends=trending['results'], media_type=trending['results'], form=form)
@@ -77,7 +70,7 @@ def trending():
 @app.post('/movie')
 def popular_movie():
     form = EmptyForm()
-    url = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=6759ed5eeb52690e2718450fa55c04f4&page=1'
+    url = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=os.environ.get("API_KEY")'
     response = requests.get(url)
     movie_json = response.json()
     return render_template('popular_movie.html', title='Browse Popular Movies', movies=movie_json['results'], form=form)
@@ -85,8 +78,8 @@ def popular_movie():
 @app.get("/movie/<movie_id>/<movie_name>")
 @app.post("/movie/<movie_id>/<movie_name>")
 def movie_detail(movie_id, movie_name):
-    movie_url ='https://api.themoviedb.org/3/movie/{}?api_key=6759ed5eeb52690e2718450fa55c04f4&language=en-US'
-    similar_movie_url = 'https://api.themoviedb.org/3/movie/{}/similar?api_key=6759ed5eeb52690e2718450fa55c04f4&language=en-US&page=1'
+    movie_url ='https://api.themoviedb.org/3/movie/{}?api_key=os.environ.get("API_KEY")&language=en-US'
+    similar_movie_url = 'https://api.themoviedb.org/3/movie/{}/similar?api_key=os.environ.get("API_KEY")&language=en-US&page=1'
     response = requests.get(movie_url.format(movie_id))
     movie_detail = response.json()
     similar_movie_response = requests.get(similar_movie_url.format(movie_id))
@@ -97,15 +90,15 @@ def movie_detail(movie_id, movie_name):
 @app.post('/tv')
 def popular_tv():
     form = EmptyForm()
-    url = 'https://api.themoviedb.org/3/tv/popular?api_key=6759ed5eeb52690e2718450fa55c04f4&language=en-US&page=1'
+    url = 'https://api.themoviedb.org/3/tv/popular?api_key=os.environ.get("API_KEY")&language=en-US&page=1'
     response = requests.get(url)
     popular_tv = response.json()
     return render_template('popular_tv.html', title='Browse Popular TV Shows', tvs=popular_tv['results'], form=form)
 
 @app.route("/tv/<tv_id>/<tv_name>/")
 def tv_detail(tv_id, tv_name):
-    tv_url = 'https://api.themoviedb.org/3/tv/{}?api_key=6759ed5eeb52690e2718450fa55c04f4&language=en-US'
-    similar_tv_url = 'https://api.themoviedb.org/3/tv/{}/similar?api_key=6759ed5eeb52690e2718450fa55c04f4&language=en-US&page=1'
+    tv_url = 'https://api.themoviedb.org/3/tv/{}?api_key=os.environ.get("API_KEY")&language=en-US'
+    similar_tv_url = 'https://api.themoviedb.org/3/tv/{}/similar?api_key=os.environ.get("API_KEY")&language=en-US&page=1'
     response = requests.get(tv_url.format(tv_id))
     tv_detail = response.json()
     similar_tv_response = requests.get(similar_tv_url.format(tv_id))
