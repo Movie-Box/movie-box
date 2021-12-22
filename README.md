@@ -7,7 +7,7 @@
 
 ### Create a Virtual Environment
 
-#### $ pip install virtual env
+#### $ pip install virtualenv
 
 #### $ virtualenv venv
 
